@@ -9,6 +9,7 @@ from database import init_db
 from PIL import Image  # Necesitamos PIL para cargar la imagen
 import auth
 from database import init_db
+
 # Inicializar BD al iniciar la app
 init_db()
 auth.authenticate()
